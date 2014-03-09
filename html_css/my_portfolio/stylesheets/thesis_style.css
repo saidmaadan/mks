@@ -1,0 +1,15 @@
+p {
+	font-family: sans-serif;
+}
+p a:hover {
+	color: red;
+	text-decoration: none;
+}
+h1, h2 {
+	font-family: 'Flamenco', cursive;
+	text-transform: uppercase;
+}
+p.first {
+	font-family: 'Averia Sans Libre', cursive;
+	font-style: italic;
+}
