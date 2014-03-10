@@ -1,0 +1,29 @@
+.wrapper {
+	background: #ccc;
+	margin: 0 auto;
+	width: 750px;
+	float: none;
+
+	
+}
+.first {
+	width: 250px;
+	height: 200px;
+	background-color: blue;
+	float: right;
+	
+}
+.second {
+	width: 250px;
+	height: 200px;
+	background-color: green;
+	float: right;
+	
+}
+.third {
+	width: 250px;
+	height: 200px;
+	background-color: red;
+	float: right;
+	
+}

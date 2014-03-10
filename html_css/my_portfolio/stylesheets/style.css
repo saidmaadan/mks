@@ -1,0 +1,32 @@
+body {
+  background: #eee;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.toc {
+  padding: 20px;
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  background: white;
+}
+.blog-post {
+	padding: 20px;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.profile {
+  padding: 20px;
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  background: white;
+}
+
+div {
+	display: block;
+}
