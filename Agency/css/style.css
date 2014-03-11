@@ -3,13 +3,13 @@ body {
 	font-weight: 100;
 	font-size: 1.125em;
 	color: white;
-	background: url(images/background.jpg) #000 repeat;
+	background: url(../images/background.jpg) #000 repeat;
 }
 .logo {
 	padding-top: 15px;
 }
 .work {
-	height: 50px;
+	
 	margin-top: -18px;
 	background: black;
 	background-size: 50px;
