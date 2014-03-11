@@ -1,0 +1,97 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 100;
+	font-size: 1.125em;
+	color: white;
+	background: url(images/background.jpg) #000 repeat;
+}
+.logo {
+	padding-top: 15px;
+}
+.work {
+	height: 50px;
+	margin-top: -18px;
+	background: black;
+	background-size: 50px;
+	font-weight: bold;
+	padding: 17px;
+}
+.work a {
+	color: #fff;
+}
+ul.nav {
+  
+  list-style: none;
+  float: right;
+}
+
+ul.nav li {
+  float: left;
+  margin-right: 10px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 9px;
+
+}
+
+
+.top {
+	background: white;
+	height: 50px;
+}
+article h2{
+	margin-top: -40px;
+}
+article span {
+	padding-right: 10px;
+	font-weight: bold;
+	color: red;
+}
+article p span {
+	background: white;
+	color: gray;
+	padding-left: 64px;
+	padding-right: 80px;
+	padding-top: 7px;
+
+}
+
+.footer {
+	float: right;
+	font-weight: bold;
+	background: #1B1C1A;
+	padding: 5px;
+}
+.footer a {
+	color: #fff;
+}
+
+/* Medium ------------ */
+@media screen and (max-width: 768px) {
+	.container {
+		width:100%;
+}
+	
+
+/* Smaller ----------- */
+@media screen and (max-width : 650px) {
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+a {
+  color: #fff;
+}
