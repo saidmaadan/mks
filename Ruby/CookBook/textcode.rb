@@ -1,4 +1,4 @@
-require_relative 'cookbook.rb'
+require_relative 'cookbook'
 
 mex_cuisine = CookBook.new("African Cooking")
 burrito = Recipe.new("Bean Burrito", ["tortilla", "bean"], ["heat beans", "place beans in tortilla", "roll up"])
