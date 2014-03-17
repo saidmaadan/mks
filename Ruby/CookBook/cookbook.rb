@@ -24,17 +24,39 @@ class CookBook
   end
 end
 
-def print_recipe
-  @recipes.each do |recipe|
-    puts "We are going to cook #{recipe.title} with available ingredients #{recipe.ingredients.join(" and ")} will first #{recipe.steps.join(" and ")}"
-  end
+ def print_recipe
+   @recipes.each do |recipe|
+     puts "We are going to cook #{recipe.title} with available ingredients #{recipe.ingredients.join(" and ")} will first  #{recipe.steps}"
+   end
+ end
+
+ 
+ def print_cookbook(recipe)
+   @recipes << recipe
+   puts "We are going to cook #{recipe.title} with two available ingredients #{recipe.ingredients.join(",")} will first #{recipe.steps.join(",")}"
+ end
+ 
+ def cook_time
+   puts "Enter your recipe: "
+   @recipes = gets.chomp
+   if @recipes == "burrito"
+     puts "It takes 5 minutes to cook burrito"
+   elsif @recipes == "african"
+     puts "You have to wait for 10 minutes for this to be ready"
+   else
+     puts "Your order is not available"
+   end
+ end
+ 
+ def half_done
+   puts "It will take 5 minutes for the food to be ready"
+ end
+ 
+ def full_done
+   puts "Enjoy your favorite programm for the next 10 minutes before your order ready "
+ end
 end
 
-def print_cookbook(recipe)
-  @recipes << recipe
-    puts "We are going to cook #{recipe.title} with two available ingredients #{recipe.ingredients.join(",")} will first #{recipe.steps.join(",")}"
-end
-end
 
 class Recipe
 	attr_accessor :title, :ingredients, :steps
@@ -43,6 +65,5 @@ class Recipe
 		@title = title
 		@ingredients = ingredients
 		@steps = steps
-	end
-  
+  end 
 	end

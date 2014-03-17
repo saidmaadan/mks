@@ -50,3 +50,11 @@ p "*******************************************"
 mex_cuisine.print_cookbook(african)
 p "-----------"
 mex_cuisine.print_cookbook(burrito)
+
+p "_______________________________"
+mex_cuisine.full_done
+mex_cuisine.half_done
+
+p "_______________________________**************"
+
+mex_cuisine.cook_time
