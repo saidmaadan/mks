@@ -16,6 +16,7 @@ class RaceTracks
     @cars << car
   end
   
+  
   def start_race(hours)
     puts "There are #{@cars.size} cars competing in #{@title}"
     
@@ -36,11 +37,14 @@ class RaceTracks
       
       @cars.each do |car|
       car.added_speed_by_each_hour
+      
       end
       end
       p "----------------------------"
+      p "----------------------------"
       
     end 
+    
   end      
 end
 
@@ -62,8 +66,5 @@ class RaceCars
     puts "#{@name} add #{@speed}MPH to his speed"
   end
   
-  def total_speed
-    @speed = start_speed + added_speed_by_each_hour
-    puts "#{@name} has #{@speed}MPH total speed at end of 5hours"
-  end
+  
 end
