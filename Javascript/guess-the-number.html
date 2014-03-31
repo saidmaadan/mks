@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Guess the Number!</title>
+</head>
+<body>
+
+<script type="text/javascript">
+  alert('Hello World!');
+
+  var secretNumber = parseInt(Math.random() * 100, 10) + 1;
+  var userNumber = prompt("Enter your lucking number", "Choose from 1 to 100")
+  var secretNumber = function(userNumber){
+  	if(userNumber <= 50){
+  		console.log("Too low! Enter higher number");
+  		prompt("Enter your lucking number", "Choose from 1 to 100");
+  	}else if (userNumber >= 80){
+  		console.log("Too high! Enter low number");
+  		prompt("Enter your lucking number", "Choose from 1 to 100");
+  	}else if (userNumber > 50 $$ userNumber < 80){
+  		console.log("Congratulations! You win")
+  	};
+  };
+secretNumber(userNumber);
+</script>
+
+</body>
+</html>

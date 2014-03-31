@@ -1,0 +1,114 @@
+<html>
+<head>
+  <title>Javascript Bare</title>
+</head>
+<body>
+
+<script type="text/javascript">
+   var slap = function() {
+  alert('SLAP');
+};
+slap();
+
+
+// **************************************
+var kick = function (name) {
+  alert(name + ' reproaches your behavior.');
+};
+kick('Billy');
+
+// **************************************
+
+var doubleIt = function (x) {
+  alert(x + ' times two is ' + x * 2);
+};
+doubleIt(8);
+
+var greet = function (name) {
+  alert("Welcome, " + name);
+};
+greet('Bob');
+
+// **************************************
+var yell = function(){
+	alert("Hallo").toUpperCase();
+}
+yell();
+
+// **************************************
+
+function divideBy(y, x){
+return y / x
+}
+var result = divideBy(50, 2);
+console.log('Result should be 25:', result);
+
+result = divideBy(40, 10);
+console.log('Result should be 4:', result);
+
+result = divideBy(99, 3);
+console.log('Result should be 33:', result);
+
+// **************************************
+
+var welcome = function(name1, name2){
+	if(name1 === name1 && name2 === name2){
+		return("Welcome " + name1 + " and " + name2);
+}else(name1 === name1 || name2 === name2){
+	return("Welcome " + name1);
+}
+}
+welcome("Said");
+welcome("Said", "Maadan");
+
+// **************************************
+
+var poke = function () {
+  alert('ow');
+};
+poke();
+
+// **************************************
+
+var askify = function (request) {
+  return "Can you please " request + "?";
+};
+
+var result = askify('fix me');
+console.log("Can you please " + askify + "?");
+
+// **************************************
+
+var multiplyString = function (string, times) {
+  if (times === 0) {
+    return '';
+  }
+  else {
+    return string + multiplyString(string, times - 1);
+  }
+};
+
+var result = multiplyString('Mike' 5);
+alert(result);
+
+// **************************************
+function addFive(num){
+	return num + 5;
+}
+console.log("addFive(3) should be 8:", addFive(3));
+console.log("addFive(6) should be 11:", addFive(6));
+
+pass = prompt("Enter your password")
+var userPass = function(pass, counter){
+counter = 1
+}
+if (pass === "bruto" && counter < 4){
+	alert("Access granted")
+}else {
+	alert("Access denied")
+}
+
+</script>
+
+</body>
+</html>
